@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Content First Prototyping</title>
+  <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+">
+
+  <link rel="stylesheet" href="/css/app.css">
+  <link rel="canonical" href="https://runcodd.github.io//tearsheet.html">
+  <link rel="alternate" type="application/rss+xml" title="Content First Prototyping" href="https://runcodd.github.io//feed.xml">
+</head>
+
+<body>
+
+<div class="off-canvas-wrapper">
+    <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper>
+
+        <!-- off-canvas title bar for 'small' screen -->
+<div class="title-bar" data-responsive-toggle="widemenu" data-hide-for="medium">
+  <div class="title-bar-left">
+    <button class="menu-icon" type="button" data-open="offCanvasLeft"></button>
+    <a href="/"><span class="title-bar-title">Content First Prototyping</span></a>
+  </div>
+</div>
+
+<!-- off-canvas left menu -->
+<div class="off-canvas position-left" id="offCanvasLeft" data-off-canvas>
+  <ul class="vertical menu">
+        
+          <li><a href="#">Sample Content</a>
+            
+              <ul class="vertical menu secondary">
+                
+                  <li><a href="/catalogue.html">Catalogue</a></li>
+                
+                  <li><a href="/directory.html">People</a></li>
+                
+                  <li><a href="/feed.html">Events</a></li>
+                
+              </ul>
+            
+          </li>
+        
+          <li><a href="/tearsheet.html">Tear Sheet</a>
+            
+          </li>
+        
+          <li><a href="/about.html">About</a>
+            
+          </li>
+        
+  </ul>
+</div>
+
+<!-- wider top-bar menu for 'medium' and up -->
+<div id="widemenu" class="top-bar">
+  <div class="column row">
+    <div class="top-bar-left">
+        <a href="/"><div class="menu-text">Content First Prototyping</div></a>
+    </div>
+    <div class="top-bar-right">
+      <ul class="dropdown menu" data-dropdown-menu>
+        
+          <li><a href="#"  class="no-link" >Sample Content</a>
+            
+              <ul class="vertical menu">
+                
+                  <li><a href="/catalogue.html">Catalogue</a></li>
+                
+                  <li><a href="/directory.html">People</a></li>
+                
+                  <li><a href="/feed.html">Events</a></li>
+                
+              </ul>
+            
+          </li>
+        
+          <li><a href="/tearsheet.html" >Tear Sheet</a>
+            
+          </li>
+        
+          <li><a href="/about.html" >About</a>
+            
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+        <div class="off-canvas-content" data-off-canvas-content>
+            <div class="column row">
+
+                <h2>Foundation Tear Sheet</h2>
+<p>This page gives you an easy reference to some of the most common building blocks for Foundation. Modify them, play around with them, or totally destroy them to get going. Once you've gotten your fill here, check out <a href="http://foundation.zurb.com/sites/docs/">Foundation's official documentation</a>. There you'll find tons of example, instructions, and code snippets you can stick right into your prototypes. </p>
+
+
+<div class="row tearsheet">
+  <div class="column"> <!-- If you don't specify small-# to a column, Foundation will assume you mean "go full-width on small screens."  -->
+    <h3>The Grid</h3>
+    <!-- Grid Example -->
+    <div class="row">
+      <div class="large-12 medium-12 columns"> 
+        <div class="secondary callout">
+          <p><strong>This is a twelve column section in a row.</strong> Each of these includes a divsecondary.callout element so you can see where the columns are - it's not required at all for the grid.</p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="large-6 medium-6 columns">
+        <div class="secondary callout">
+          <p><strong>Six columns</strong></p>
+        </div>
+      </div>
+      <div class="large-6 medium-6 columns">
+        <div class="secondary callout">
+          <p><strong>Six columns</strong></p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="large-4 medium-4 small-12 columns">
+        <div class="secondary callout">
+          <p><strong>Four columns</strong></p>
+            <p>Each of these last columns will shift to full width (i.e. 12 columns across) when the window width drops below the small breakpoing. Resize your window to see (then check out the markup to see how it works).</p>
+        </div>
+      </div>
+      <div class="large-4 medium-4 small-12 columns">
+        <div class="secondary callout">
+          <p><strong>Four columns</strong></p>
+            <p>Each of these last columns will shift to full width (i.e. 12 columns across) when the window width drops below the small breakpoing. Resize your window to see (then check out the markup to see how it works).</p>
+        </div>
+      </div>
+      <div class="large-4 medium-4 small-12 columns">
+        <div class="secondary callout">
+          <p><strong>Four columns</strong></p>
+            <p>Each of these last columns will shift to full width (i.e. 12 columns across) when the window width drops below the small breakpoing. Resize your window to see (then check out the markup to see how it works).</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="column">
+    <h3>Typography</h3>
+    <!-- Header Examples -->
+    <div class="row">
+      <div class="column">      
+        <h1>h1. This is a very large header.</h1>
+        <h2>h2. This is a large header.</h2>
+        <h3 class="foundation-default">h3. This is a medium header.</h3>
+        <h4>h4. This is a moderate header.</h4>
+        <h5>h5. This is a small header.</h5>
+        <h6>h6. This is a tiny header.</h6>
+        <p>p. This is the normal body text size. Let's give the body a little more body so we have a sense of what the leading (line-height) and color looks like. That should about do it. Blammo! A whole paragraph appears – as if by magic!</p>
+      </div>
+    </div>
+  </div>
+  <div class="column">
+    <h3>Colors</h3>
+    <!-- Button Examples -->
+    <div class="row">
+      <div class="column">   
+        <p>Some of the color settings in the Foundation style sheet accompanied with this framework have been modified from Foundation's "out-of-the-box" configuration. The goal of this monochromatic wireframe style is to help your prototype not "look like" a Foundatin Site (or a Bootstrap Site, or anything else) so that you (and your users) can focus on the content and the relationships your structure creates.</p> 
+        <h4 class="swatch primary">Primary: Cool Grey 80%, #667788</h4> 
+        <h4 class="swatch accent">Accent: Cool Grey 40%, #D1D6DB</h4> 
+        <h4 class="swatch secondary">Secondary: Cool Grey 20%, #EFF1F3</h4> 
+        <h4 class="swatch black">Black, #3A444E</h4> 
+        <h4 class="swatch white">White #FEFEFE</h4> 
+      </div>
+    </div>
+  </div>        
+  <div class="column">
+    <h3>Callouts</h3>
+    <!-- Callout Examples -->
+    <div class="row">
+      <div class="medium-4 columns">
+        <div class="callout">
+          <p>Callouts come in a couple varieties. Here's a default callout.</p>
+        </div>
+      </div>
+      <div class="medium-4 columns">
+        <div class="secondary callout">
+          <p>Here's a callout with a class of secondary added on to it.</p>
+        </div>
+      </div>
+      <div class="medium-4 columns">
+        <div class="primary callout">
+          <p>And finally a callout with a class of primary added on to it. Intense!</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="column">
+    <h3>Buttons</h3>
+    <!-- Button Examples -->
+    <div class="row">
+      <div class="column clearfix">
+        <a href="#" class="primary button">Primary Button</a>
+        <a href="#" class="disabled primary button">Pri. Btn Disabled</a>
+      </div>
+      <div class="column clearfix">
+        <a href="#" class="hollow button">Secondary Btn</a>
+        <a href="#" class="disabled hollow button">Sec Btn Disabled</a>
+      </div>
+    </div>
+  </div>
+  <div class="column">
+    <h3>Form Fields</h3>
+    <!-- Form Examples -->
+    <form>
+      <div class="row">
+        <div class="large-12 columns">
+          <label>Input Label</label>
+          <input type="text" placeholder="large-12.columns" />
+        </div>
+      </div>
+      <div class="row">
+        <div class="large-4 medium-4 columns">
+          <label>Input Label</label>
+          <input type="text" placeholder="large-4.columns" />
+        </div>
+        <div class="large-4 medium-4 columns">
+          <label>Input Label</label>
+          <input type="text" placeholder="large-4.columns" />
+        </div>
+        <div class="large-4 medium-4 columns">
+          <div class="row collapse">
+            <label>Input Label</label>
+            <div class="input-group">
+              <input type="text" placeholder="small-9.columns" class="input-group-field" />
+              <span class="input-group-label">.com</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="large-12 columns">
+          <label>Select Box</label>
+          <select>
+            <option value="husker">Husker</option>
+            <option value="starbuck">Starbuck</option>
+            <option value="hotdog">Hot Dog</option>
+            <option value="apollo">Apollo</option>
+          </select>
+        </div>
+      </div>
+      <div class="row">
+        <div class="large-6 medium-6 columns">
+          <label>Choose Your Favorite</label>
+          <input type="radio" name="pokemon" value="Red" id="pokemonRed"><label for="pokemonRed">Radio 1</label>
+          <input type="radio" name="pokemon" value="Blue" id="pokemonBlue"><label for="pokemonBlue">Radio 2</label>
+        </div>
+        <div class="large-6 medium-6 columns">
+          <label>Check these out</label>
+          <input id="checkbox1" type="checkbox"><label for="checkbox1">Checkbox 1</label>
+          <input id="checkbox2" type="checkbox"><label for="checkbox2">Checkbox 2</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="large-12 columns">
+          <label>Textarea Label</label>
+          <textarea placeholder="small-12.columns"></textarea>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
+          
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Footer -->
+<footer id="footer" class="footer">
+  <div class="row full-width">
+    <div class="small-12 large-4 columns">
+      <h4>Content First Prototyping</h4>
+      <p>Behold: the footer! And shameless plugging the the thing in which it apears! And why not? We do need some text here – and you'll surely replace this in your own projet. Thus: plugs shall plug.</p>
+    </div>
+    <div class="small-12 large-4 columns">
+      <h4>Header Here!</h4>
+      <p>Here's another header area. We could fill this with "Greeked" text (which is often how these sorts of areas appear), but we're not monsters, dammit. Also: real words are hot!</p>
+    </div>
+    <div class="small-6 medium-6 large-2 columns">
+      <h4>Links!</h4>
+      <ul class="footer-links">
+        <li><a href="#">Beards</a></li>
+        <li><a href="#">Beer</a></li>
+        <li><a href="#">Bears</a></li>
+        <li><a href="#">Bicycles</a></li>
+      <ul>
+    </div>
+    <div class="small-6 medium-6 large-2 columns">
+      <h4>Socials!</h4>
+      <ul class="footer-links">
+        <li><a href="#">GitHub</a></li>
+        <li><a href="#">Facebook</a></li>
+        <li><a href="#">Twitter</a></li>
+        <li><a href="#">Dribble</a></li>
+      <ul>
+    </div>
+  </div>
+</footer>
+
+
+<!-- core Foundation and jquery scripts -->
+<script src="/js/jquery.min.js"></script>
+<script src="/js/foundation.min.js"></script>
+<script src="/js/foundation.util.mediaQuery.js"></script>
+<script src="/js/app.js"></script>
+</body>
+</html>
+
